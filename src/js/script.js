@@ -6,7 +6,7 @@ mobileBtn.addEventListener('click', () => {
     navLinks.classList.toggle('show');
     icon.classList.toggle('fa-bars');
     icon.classList.toggle('fa-times');
-})
+});
  
 window.addEventListener('scroll', () => {
     const header = document.getElementById('header');
@@ -16,4 +16,12 @@ window.addEventListener('scroll', () => {
     } else {
         header.style.boxShadow = 'none';
     }
-})
+});
+
+const logo = document.querySelector('.logo');
+logo.style.cursor = "pointer";
+logo.addEventListener('click', () => {
+    document.querySelector("#home").scrollIntoView({
+        behavior: "smooth"
+    });
+});
