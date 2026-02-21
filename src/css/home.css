@@ -6,7 +6,8 @@
     min-height: calc(100vh - 96px);
     padding: 32px 4%;
     padding-top: clamp(0px, 5vw, 32px);
- 
+
+    
     .home-image {
         width: clamp(300px, 50%, 400px);
     }

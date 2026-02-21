@@ -13,7 +13,11 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
- 
+
+html {
+    scroll-behavior: smooth;
+}
+
 #container {
     background-image: url('../assets/background-mobile.png');
     background-size: contain;
